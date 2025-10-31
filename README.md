@@ -25,6 +25,12 @@
 - **Стек:** HTML, CSS, JavaScript (ES5+), DOM API, `localStorage`.
 - **Структура проекта:**
 
+<<<<<<< HEAD
 - index.html # только базовый каркас и <script> подключения
 - favicon.svg # фавикон
 -  src/  ata.js # слой данных: uid, load/save (localStorage), публичный API / pp.js # UI и логика: создание DOM, обработчики, фильтры, DnD
+=======
+-index.html # только базовый каркас и <script> подключения
+-favicon.svg # фавикон
+-src/ data.js # слой данных: uid, load/save (localStorage), публичный API / app.js # UI и логика: создание DOM, обработчики, фильтры, DnD
+>>>>>>> 0755ecb (feat(icons))
