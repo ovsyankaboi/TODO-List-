@@ -172,6 +172,15 @@ footer {
 `;
 
   const styleEl = document.createElement('style');
+  const faviconPng = document.createElement('link');
+  faviconPng.setAttribute('rel', 'icon');
+  faviconPng.setAttribute('type', 'image/png');
+  faviconPng.setAttribute('href', './favicon.png'); 
+  document.head.appendChild(faviconPng);
+  const appleTouch = document.createElement('link');
+  appleTouch.setAttribute('rel', 'apple-touch-icon');
+  appleTouch.setAttribute('href', './favicon.png');
+  document.head.appendChild(appleTouch);
   styleEl.appendChild(document.createTextNode(css));
   document.head.appendChild(styleEl);
   let tasks = window.todoData.loadTasks(); 
