@@ -1,4 +1,4 @@
-# To-Do list 
+# To-Do list https://ovsyankaboi.github.io/TODO-List-/
 
 Мини-веб-приложение для управления задачами (создание, редактирование, удаление, отметка «выполнено», фильтрация, сортировка, поиск и drag-and-drop).  
 Проект выполнен без фреймворков — только HTML + CSS + чистый JavaScript (DOM API). Вся разметка строится динамически из JS.
@@ -25,12 +25,10 @@
 - **Стек:** HTML, CSS, JavaScript (ES5+), DOM API, `localStorage`.
 - **Структура проекта:**
 
-<<<<<<< HEAD
-- index.html # только базовый каркас и <script> подключения
-- favicon.svg # фавикон
--  src/  ata.js # слой данных: uid, load/save (localStorage), публичный API / pp.js # UI и логика: создание DOM, обработчики, фильтры, DnD
-=======
--index.html # только базовый каркас и <script> подключения
--favicon.svg # фавикон
--src/ data.js # слой данных: uid, load/save (localStorage), публичный API / app.js # UI и логика: создание DOM, обработчики, фильтры, DnD
->>>>>>> 0755ecb (feat(icons))
+```text
+.
+├── index.html        # только базовый каркас и <script> подключения
+├── favicon.png       # фавикон 
+└── src/
+    ├── data.js       # слой данных: uid, load/save (localStorage), публичный API
+    └── app.js        # UI и логика: создание DOM, обработчики, фильтры, DnD
